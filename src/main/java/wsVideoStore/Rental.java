@@ -16,6 +16,9 @@ public class Rental
   public Movie getMovie(){
     return movie;
   }
+  public int getDaysRented(){
+    return this.daysRented;
+  }
 
   public double determineAmount() {
     return movie.determineAmount(daysRented);
